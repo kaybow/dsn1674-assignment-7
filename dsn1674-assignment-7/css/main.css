@@ -60,6 +60,16 @@ img {
 	display: block;
 }
 
+p {
+	text-align: center;
+	margin: 0;	text-align: center;
+	position: relative;
+	color: white;
+	bottom: 3em;
+	width: 100%;
+	font-size: 2rem;
+}
+
 .footer {
 	background-color: #9b7c64
 }

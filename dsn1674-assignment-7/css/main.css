@@ -70,6 +70,27 @@ p {
 	font-size: 2rem;
 }
 
+.nest {
+	float: left;
+	width: 50%;
+}
+
+.stag {
+	float: right;
+	width: 50%;
+}
+.dung {
+	float: left;
+	width: 50%;
+}
+
+.tort {
+	float: right;
+	width: 50%;
+}
+
 .footer {
 	background-color: #9b7c64
 }
+
+

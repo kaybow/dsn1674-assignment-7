@@ -12,11 +12,22 @@ body{
 	padding: 0;
 }
 
-
 .masthead {
-	background-image: url("../images/beetle.svg"), url("../images/masthead-bg.png");
+	background-image: url("../images/beetle-left.svg"), url("../images/masthead-bg.png");
 	background-size: 75px auto, 200px auto;
 	padding-top: 6em;
 	background-repeat: no-repeat, repeat;
 	background-position: center 10px, left top;
 	text-align: center;
+}
+
+h1 {
+color: #512200;
+font-size: 5rem;
+
+}
+
+img {
+	width: 100%;
+	display: block;
+}

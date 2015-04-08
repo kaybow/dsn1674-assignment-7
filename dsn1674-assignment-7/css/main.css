@@ -5,3 +5,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+font-family: 'Dosis', sans-serif;
+
+.masthead {
+	background-image: url("../images/beetle.svg"), url("../images/masthead-bg.png");
+	background-size: 75px auto, 200px auto;
+	padding-top: 6em;
+	background-repeat: no-repeat, repeat;
+	background-position: center 10px, left top;
+	text-align: center;

@@ -27,7 +27,21 @@ font-size: 5rem;
 
 }
 
+nav {
+	text-align: center;
+}
+
+nav li {
+	margin:0;
+	float: left;
+	width: 25%;
+}
+
 img {
 	width: 100%;
 	display: block;
+}
+
+.footer {
+	background-color: #9b7c64
 }

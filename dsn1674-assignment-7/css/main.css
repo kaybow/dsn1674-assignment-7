@@ -13,12 +13,14 @@ body{
 }
 
 .masthead {
-	background-image: url("../images/beetle-left.svg"), url("../images/masthead-bg.png");
-	background-size: 75px auto, 200px auto;
-	padding-top: 6em;
-	background-repeat: no-repeat, repeat;
-	background-position: center 10px, left top;
+	background-image: url("../images/beetle.svg"), ("../images/beetle.svg") url("../images/masthead-bg.png");
+	background-size: 60px auto, 60px auto, 100px auto;
+	padding-top: 0;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-position: left 15px, right 15px;
 	text-align: center;
+	font-size: 2em;
+	color: rgb(90, 42, 42);
 }
 
 h1 {
@@ -39,7 +41,7 @@ nav li {
 	display: inline-block;
 }
 
-nav a{
+nav a {
 color: white;
 display: block;
 padding: 0.5rem;

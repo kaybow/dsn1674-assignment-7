@@ -50,6 +50,10 @@ background-color: #9b7c64;
 font-size: 1.5rem;
 }
 
+nav a: hover {
+	color: 512200;
+}
+
 nav ol {
 	list-style-type: none;
 	margin :0;
@@ -91,10 +95,6 @@ p {
 	width: 50%;
 }
 
-.footer {
-	background-color: #9b7c64
-}
-
 .antbtn, .stagbtn, .dungbtn, .tortbtn {
 display: inline-block;
 padding: 0.5em 0.75em;
@@ -105,6 +105,11 @@ background-color: #8cc63f;
 background-image: linear-gradient(to bottom, #8cc63f, #006837);
 }
 
+.foot-beetle {
+	width:15%;
+}
+
 .footer {
-background-size: 70px;
+	background-color: #9b7c64;
+	padding: 1em, 3em, 1em, 3em;
 }

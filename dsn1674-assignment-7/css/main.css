@@ -102,8 +102,30 @@ padding: 0.5em 0.75em;
 text-decoration: none;
 border-radius: 10px;
 color: #fff;
+position: absolute;
 background-color: #8cc63f;
 background-image: linear-gradient(to bottom, #8cc63f, #006837);
+}
+
+.antbtn {
+bottom: -10em;
+left: 8em;
+}
+
+.stagbtn {
+bottom: -10em;
+right: 8em;
+}
+
+.dungbtn {
+bottom: -25.5em;
+left: 8em;
+}
+
+.tortbtn {
+bottom: -25.5em;
+right: 8em;
+
 }
 
 .foot-beetle {

@@ -13,7 +13,7 @@ body{
 }
 
 .masthead {
-	background-image: url("../images/beetle.svg"), ("../images/beetle.svg") url("../images/masthead-bg.png");
+	background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/masthead-bg.png");
 	background-size: 60px auto, 60px auto, 100px auto;
 	padding-top: 0;
 	background-repeat: no-repeat, no-repeat, repeat;
@@ -74,7 +74,7 @@ p {
 	bottom: 3em;
 	width: 100%;
 	font-size: 2rem;
-	margin-bottom: 5em;
+	padding-bottom: 5em;
 }
 
 .nest {

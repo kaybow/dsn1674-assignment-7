@@ -69,11 +69,12 @@ img {
 p {
 	text-align: center;
 	margin: 0;	text-align: center;
-	position: relative;
+	position: absolute;
 	color: white;
 	bottom: 3em;
 	width: 100%;
 	font-size: 2rem;
+	margin-bottom: 5em;
 }
 
 .nest {

@@ -129,10 +129,10 @@ right: 8em;
 }
 
 .foot-beetle {
-	width:15%;
+	width:10%;
+	position: relative;
 }
 
-.footer {
+footer {
 	background-color: #9b7c64;
-	padding: 1em, 3em, 1em, 3em;
 }

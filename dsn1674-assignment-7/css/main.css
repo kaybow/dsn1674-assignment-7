@@ -1,4 +1,4 @@
-shtml {
+html {
   box-sizing: border-box;
 }
 
@@ -14,19 +14,19 @@ body{
 
 .masthead {
 	background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/masthead-bg.png");
-	background-size: 60px auto, 60px auto, 100px auto;
+	background-size: 70px auto, 70px auto, 100px auto;
 	padding-top: 0;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-position: left 15px, right 15px;
 	text-align: center;
-	font-size: 2em;
 	color: rgb(90, 42, 42);
 }
 
 h1 {
 color: #512200;
-font-size: 5rem;
+font-size: 3.5rem;
 margin: 0;
+padding-bottom: 0.3em;
 
 }
 
@@ -44,7 +44,7 @@ nav li {
 nav a {
 color: white;
 display: block;
-padding: 0.5rem;
+padding: 0.8rem;
 text-decoration: none;
 background-color: #9b7c64;
 font-size: 1.5rem;
@@ -98,9 +98,9 @@ p {
 
 .antbtn, .stagbtn, .dungbtn, .tortbtn {
 display: inline-block;
-padding: 0.5em 0.75em;
+padding: 0.6em 2em;
 text-decoration: none;
-border-radius: 10px;
+border-radius: 15px;
 color: #fff;
 position: absolute;
 background-color: #8cc63f;

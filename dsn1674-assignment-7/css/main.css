@@ -68,7 +68,7 @@ img {
 
 p {
 	text-align: center;
-	margin: 0;	text-align: center;
+	text-align: center;
 	position: absolute;
 	color: white;
 	bottom: 3em;
@@ -135,4 +135,6 @@ right: 8em;
 
 footer {
 	background-color: #9b7c64;
+	padding-bottom: 0;
 }
+

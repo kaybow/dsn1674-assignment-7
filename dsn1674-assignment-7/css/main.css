@@ -50,8 +50,8 @@ background-color: #9b7c64;
 font-size: 1.5rem;
 }
 
-nav a: hover {
-	color: 512200;
+nav a:hover {
+	background-color: #512200;
 }
 
 nav ol {
@@ -139,5 +139,6 @@ left: 8em;
 
 footer {
 	background-color: #9b7c64;
+	clear: both;
 }
 

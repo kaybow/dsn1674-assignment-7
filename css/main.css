@@ -69,13 +69,14 @@ img {
 }
 
 p {
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
 	position: absolute;
 	text-align: center;
 	color: white;
-	bottom:1.5em;
+	bottom: 0;
 	width: 100%;
 	font-size: 2rem;
-	padding: 0;
+	padding: 1em;
 	margin: 0;
 }
 

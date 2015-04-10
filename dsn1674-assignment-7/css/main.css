@@ -102,29 +102,32 @@ padding: 0.6em 2em;
 text-decoration: none;
 border-radius: 15px;
 color: #fff;
-position: absolute;
 background-color: #8cc63f;
 background-image: linear-gradient(to bottom, #8cc63f, #006837);
 }
 
 .antbtn {
-bottom: -10em;
-left: 8em;
+position: relative;
+bottom: 3em;
+left: 3em;
 }
 
 .stagbtn {
-bottom: -10em;
-right: 8em;
-}
-
-.dungbtn {
-bottom: -25.5em;
+position: relative;
+bottom: 3em;
 left: 8em;
 }
 
+.dungbtn {
+position: relative;
+bottom: 3em;
+left: 3em;
+}
+
 .tortbtn {
-bottom: -25.5em;
-right: 8em;
+position: relative;
+bottom: 3em;
+left: 8em;
 
 }
 

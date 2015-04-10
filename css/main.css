@@ -17,7 +17,7 @@ body{
 	background-size: 70px auto, 70px auto, 100px auto;
 	padding-top: 0;
 	background-repeat: no-repeat, no-repeat, repeat;
-	background-position: left 15px, right 15px;
+	background-position: bottom 3px, left 15px, right 15px;
 	text-align: center;
 	color: rgb(90, 42, 42);
 }
@@ -67,7 +67,7 @@ img {
 }
 
 p {
-	position: relative;
+	position: absolute;
 	text-align: center;
 	color: white;
 	bottom: 3em;
@@ -77,26 +77,20 @@ p {
 	margin: 0;
 }
 
-.nest {
+.text {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.bug {
 	float: left;
 	width: 50%;
+	position: relative;
 }
 
-.stag {
-	float: right;
-	width: 50%;
-}
-.dung {
-	float: left;
-	width: 50%;
-}
 
-.tort {
-	float: right;
-	width: 50%;
-}
-
-.antbtn, .stagbtn, .dungbtn, .tortbtn {
+.bugbtn {
 display: inline-block;
 padding: 0.6em 2em;
 text-decoration: none;
@@ -104,31 +98,10 @@ border-radius: 15px;
 color: #fff;
 background-color: #8cc63f;
 background-image: linear-gradient(to bottom, #8cc63f, #006837);
-}
-
-.antbtn {
-position: relative;
+position: absolute;
 bottom: 3em;
-left: 3em;
-}
-
-.stagbtn {
-position: relative;
-bottom: 3em;
-left: 8em;
-}
-
-.dungbtn {
-position: relative;
-bottom: 3em;
-left: 3em;
-}
-
-.tortbtn {
-position: relative;
-bottom: 3em;
-left: 8em;
-
+left: 50%;
+transform: translateX(-50%);
 }
 
 .foot-beetle {
